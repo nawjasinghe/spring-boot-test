@@ -12,7 +12,8 @@ services:
     networks:
       - db
     restart: unless-stopped
-
+    ports:
+      - "5332:5432"
 networks:
   db:
     driver: bridge
