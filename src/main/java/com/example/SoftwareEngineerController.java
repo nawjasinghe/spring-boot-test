@@ -12,7 +12,7 @@ public class SoftwareEngineerController {
     @GetMapping
     public List<SoftwareEngineer> getEngineers(){
         return List.of(
-                new SoftwareEngineer("js, node, react, tailwind", "James", 1),
+                new SoftwareEngineer("js, node, react, tailwind", "Gort", 1),
                 new SoftwareEngineer("Java, spring, tailwind", "Jamila", 2));
     }
 }
